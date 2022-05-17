@@ -167,14 +167,69 @@ footer {
     background-color: dimgray;
 }
 
-.danger {}
+.danger {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #8C181B;
+    border-radius: 20%;
+    transition-duration: 0.4s;
+}
 
-.btn1 {}
+.danger:hover {
+    background-color: #4CAF50;
+    color: white;
+}
 
-.btn2 {}
+.btn1 {
+    color: white;
+    border-radius: 50%;
+    background-color: darkblue;
+    margin: 4px 2px;
+    padding: 10px 20px;
+}
 
-.btn3 {}
+.btn2 {
+    padding: 10px 20px;
+}
 
-.btn4 {}
+.btn2:hover {
+    content: me;
+}
 
-.btn5 {}
+.btn3 {
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 2px solid black;
+    border: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn3:hover:after {
+    content: " !!!";
+}
+
+.btn4 {
+    padding: 10px 20px;
+    transition: all 0.5s linear;
+}
+
+.btn4:hover {
+    width: 150px;
+    background-color: darkmagenta;
+    border-radius: 30%;
+}
+
+.btn5 {
+    padding: 10px 20px;
+}
+
+.btn5:hover:after {
+    content: " \2192";
+}
