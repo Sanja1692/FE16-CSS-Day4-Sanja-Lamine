@@ -203,6 +203,10 @@ footer {
     content: me;
 }
 
+.btn2:hover:after {
+    content: " \2713";
+}
+
 .btn3 {
     padding: 10px 20px;
     border-radius: 100px;
