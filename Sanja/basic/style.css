@@ -1,0 +1,180 @@
+body {
+    height: 100%;
+    background-image: url(pics/hero.jpg);
+    background-repeat: no-repeat;
+    /* background-color: bisque; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: lightslategray;
+    text-decoration: none;
+    color: white;
+    width: 4vw;
+    height: 20vh;
+    padding: 1vw;
+    margin-bottom: 2vw;
+    margin-top: 2vh;
+}
+
+nav:hover {
+    width: 5vw;
+    height: 20vh;
+    margin: 1vw;
+    background-color: lightseagreen;
+    transition: all 0.5s linear;
+    text-align: center;
+}
+
+#red {
+    color: red;
+    text-decoration: none;
+}
+
+#red:hover {
+    color: blueviolet;
+    font-size: large;
+}
+
+#blue {
+    color: blue;
+    text-decoration: none;
+}
+
+#blue:hover {
+    color: cornflowerblue;
+    font-size: large;
+}
+
+#green {
+    color: green;
+    text-decoration: none;
+}
+
+#green:hover {
+    color: darkcyan;
+    font-size: large;
+}
+
+#yellow {
+    color: yellow;
+    text-decoration: none;
+}
+
+#yellow:hover {
+    color: darkorange;
+    font-size: large;
+}
+
+#pink {
+    color: pink;
+    text-decoration: none;
+}
+
+#red:hover {
+    color: darksalmon;
+    font-size: large;
+}
+
+#hero {
+    background-color: blue;
+    height: 30%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-img {
+    width: auto;
+    height: 30%;
+}
+
+.hero-text {
+    text-align: left;
+    float: left;
+    position: relative;
+    top: 58%;
+    left: 20%;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+}
+
+.foot {
+    text-decoration: none;
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: 1fr 2fr; */
+    /* grid-template-rows: ; */
+    grid-gap: 20px;
+}
+
+.first {
+    grid-column: 1/3;
+    grid-row: 1/7;
+    background-color: aquamarine;
+}
+
+.second {
+    grid-column: 3/6;
+    grid-row: 1/14;
+    background-color: green;
+}
+
+.third {
+    grid-column: 1/2;
+    grid-row: 7/14;
+    background-color: antiquewhite;
+}
+
+.fourth {
+    grid-column: 2/3;
+    grid-row: 7/14;
+    background-color: beige;
+}
+
+.five {
+    grid-column: 1/3;
+    grid-row: 14/22;
+    background-color: cyan;
+}
+
+.six {
+    grid-column: 3/6;
+    grid-row: 14/22;
+    background-color: dimgray;
+}
+
+.danger {}
+
+.btn1 {}
+
+.btn2 {}
+
+.btn3 {}
+
+.btn4 {}
+
+.btn5 {}
